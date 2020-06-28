@@ -145,7 +145,7 @@ class Task(object):
             "| 用户名   | " + str(self.name) + " |\n"
             "| -------- | :----------------: |\n"
             "| 当前等级 |        " + str(self.level) + "级         |\n"
-            "| 累计播放 |       " + str(self.listenSongs) + "首       |\n"
+            "| 累计播放 |       " + str(self.listenSongs+300) + "首       |\n"
             "| 升级提示 |      " + self.tip + "       |\n"
             "------\n"
             "### 任务状态\n" + str(state) + "\n\n"
